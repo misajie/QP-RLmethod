@@ -6,7 +6,7 @@ This repository aims to conduct a research project on applying RL methods to imp
 
 ## Planning
 + [ ] Learn classical QP solving methods, (OSQP, Active Set Method)
-+ [ ] Implement classical QP methods on benchmark problems
++ [x] Implement classical QP methods on benchmark problems, can be found on [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1YT9BZ8YmwGNjmscL3Pg2ZDrWijq5Exw-)
 + [ ] Reproduce RLQP 
 	- Learn how MDP simulator construction;
 	- apply RL agents
