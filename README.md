@@ -1,17 +1,13 @@
 # QP-RLmethod
 Author: Misajie
-Update: 20220127
+Update: 20220731
 ## Description
-This repository aims to conduct a research project on applying RL methods to improve Quadratic Programming solving.
+This repository aims to conduct a research project on applying RL methods to speed up active set method.
 
-## Planning
-+ [ ] Learn classical QP solving methods, (OSQP, Active Set Method)
-+ [x] Implement classical QP methods on benchmark problems, can be found on [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1YT9BZ8YmwGNjmscL3Pg2ZDrWijq5Exw-)
-+ [ ] Reproduce RLQP 
-	- Learn how MDP simulator construction;
-	- apply RL agents
-	- ...
-+ [ ] 
+## Main contributions
++ a active set solver that can interactively change the working set
++ two different environment to apply RL in active set methods
++ several deterministic agents trying to learn policy to choose constraints in the working set
 
 ## Reference Resources
 + Jeffrey Ichnowski,et al. Accelerating Quadratic Optimization with Reinforcement Learning, NeurIPS 2021 [pdf](https://arxiv.org/pdf/2107.10847.pdf)
